@@ -62,3 +62,29 @@ button {
     border-radius: 5px;
     margin: 0 8rem;
 }
+
+@media (max-width: 428px) {
+    .form {
+        width: 330px;
+        border: 2px solid rgb(255, 166, 2);
+        border-radius: 10px;
+        background-color: white;
+        margin: 4rem auto;
+        padding: 20px;
+        box-shadow: 5px 5px 4px blue;
+        text-align: center;
+    }
+
+    button {
+        width: 100px;
+        text-align: center;
+        background-color: orange;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 600;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        margin: 0 2rem;
+    }
+}
